@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn {
+        @apply px-16 py-2  bg-primary-color rounded-xl text-white font-semibold text-lg hover:bg-[#196280] transition-all duration-200
+    }
+}
