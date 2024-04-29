@@ -22,3 +22,28 @@ const swiper = new Swiper(".testimonials_slider", {
     },
   },
 });
+
+const partnerSlides = new Swiper(".trusted_partner_slider", {
+  autoplay: {
+    delay: 500,
+    disableOnInteraction: false,
+  },
+  slidesPerView: 3,
+  spaceBetween: 20,
+  centeredSlides: true,
+  loop: true,
+  breakpoints: {
+    400: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+    640: {
+      slidesPerView: 6,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 8,
+      spaceBetween: 20,
+    },
+  },
+});
