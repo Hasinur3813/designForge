@@ -838,10 +838,6 @@ video {
   flex-direction: column;
 }
 
-.place-content-center {
-  place-content: center;
-}
-
 .place-content-between {
   place-content: space-between;
 }
@@ -1282,18 +1278,6 @@ video {
     place-items: start;
   }
 
-  .sm\:place-items-center {
-    place-items: center;
-  }
-
-  .sm\:place-items-baseline {
-    place-items: baseline;
-  }
-
-  .sm\:place-items-stretch {
-    place-items: stretch;
-  }
-
   .sm\:text-start {
     text-align: start;
   }
@@ -1450,5 +1434,10 @@ video {
   .\32xl\:gap-x-6 {
     -moz-column-gap: 1.5rem;
          column-gap: 1.5rem;
+  }
+
+  .\32xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
